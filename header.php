@@ -1,37 +1,57 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
+
 <head>
-    <!-- FontAwesome CSS-->
-<?php 
+  <?php
   wp_head();
-?>
+  ?>
 
-</head> 
-
-<body>
-<header> 
-<?php
-  if(function_exists('the_custom_logo')) {
+  <?php
+  if (function_exists('the_custom_logo')) {
     /* the_custom_logo(); */
     $custom_logo_id = get_theme_mod('custom_logo');
     $logo = wp_get_attachment_image_src($custom_logo_id)[0];
+  }
+  ?>
+</head>
 
-  } 
-    ?>
-<?php
-  wp_nav_menu([
-    'menu' => 'primary',
-    'container' => '',
-    'theme_location' => 'primary',
-    'item_wrap' => '<ul id="" class="">%4$s</ul>'
-  ])
+<body>
+  <div class="drop-shadow-lg bg-contain">
+    <header class=" inset-x-0 top-0 z-50  border-b-2 border-indigo-500 drop-shadow-md">
+      <nav class="flex items-center justify-between  lg:px-12">
+        <div class="flex lg:flex-1">
+          <a href="#" class="-m-1.5 p-1.5">
+            <img class=" mb-3 mx-auto b-1" src="<?php echo $logo; ?>"> </img>
+            <span class="sr-only drop-shadow-lg">
+              <h3> <?php echo get_bloginfo('name') ?> </h3>
+            </span>
+          </a>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a href="/localhost/home" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+          <a href="http://localhost/about-us/" class="text-sm font-semibold leading-6 text-gray-900">About Us</a>
+          <a href=".contact-us" class="text-sm font-semibold leading-6 text-gray-900">Contact Us</a>
+        </div>
+        <!--<div>
+          <?php
+          /* wp_nav_menu([ */
+          /*   'menu' => 'primary', */
+          /*   'container' => '', */
+          /*   'theme_location' => 'primary', */
+          /*   'item_wrap' => '<ul id="" class="lg:gap-x-12 lg:flex  bg-red-100 text-sm">%4$s</ul>' */
+          /* ]) */
 
-  /**
-   * Go to menus then choose custom classes for adding classes from tailwind
-   * in order to work with the menu properly
-   * Pro: See how a wrapper is being written for creating custom menus 
-   */
-?>
-<img class=" mb-3 mx-auto b-1" src="<?php echo $logo; ?>">  </img>
-<h3> <?php echo get_bloginfo('name') ?> </h3>
-</header>   
+          /**
+           * Go to menus then choose custom classes for adding classes from tailwind
+           * in order to work with the menu properly
+           * Pro: See how a wrapper is being written for creating custom menus 
+           */
+          ?>
+         </div> -->
+
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Social Media:</a>
+        </div>
+      </nav>
+    </header>
+  </div>
