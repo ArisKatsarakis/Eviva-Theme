@@ -11,14 +11,17 @@ get_header();
     }
     ?>
   </div>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+  <div class="  px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0 text-center shadow-inner">
-      <span class="text-4xl font-bold tracking-tight text-creme sm:text-6xl  bg-transparent text-center ">Eviva Weddings</span>
-      <p class="mt-6 text-lg leading-8 border-2 border-2-red">Weddings Imagine and create the best wedding memories with the best wedding planners on Crete</p>
+      <span class=" font-bold tracking-tight text-creme sm:text-6xl  bg-transparent text-center text-2xl  font-josefin">Eviva Weddings</span>
+
     </div>
   </div>
   <div id="react-slider">
     slider
+  </div>
+  <div>
+    <p class="mt-6 text-lg leading-8 border-2 border-2-red">Weddings Imagine and create the best wedding memories with the best wedding planners on Crete</p>
   </div>
 </article>
 <div class="mt-2 bg-creme shadow-black  shadow-xl">

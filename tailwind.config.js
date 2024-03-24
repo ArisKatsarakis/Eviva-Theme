@@ -8,7 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'nunito': ['nunito', 'sans-serif'],
-        'josefin': ['Josefin', 'Sans'],
+        'josefin': ['josefin', 'sans-serif'],
+        'playfair': ['playfair', 'display'],
+        'crismon': ['crimson', 'text'],
       },
       stroke: ['hover', 'focus'],
       fontSize: {

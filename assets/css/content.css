@@ -985,8 +985,16 @@ video {
   vertical-align: middle;
 }
 
+.font-crismon {
+  font-family: crimson, text;
+}
+
 .font-josefin {
-  font-family: Josefin, Sans;
+  font-family: josefin, sans-serif;
+}
+
+.font-playfair {
+  font-family: playfair, display;
 }
 
 .text-2xl {
