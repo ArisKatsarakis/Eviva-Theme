@@ -13,7 +13,6 @@ function evivatheme_register_styles()
 {
   wp_enqueue_style('evivatheme-style', get_template_directory_uri() . '/style.css', ['evivatheme-style-boootstrap'], '1.0');
   wp_enqueue_style('evivatheme-style-boootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css', [], '1.0');
-  wp_enqueue_style('evivatheme-style-font-awesome', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css', [], '1.0');
   wp_enqueue_style('evivatheme-style-tailwind-css', get_template_directory_uri() . '/assets/css/content.css', [], '1.0');
 }
 

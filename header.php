@@ -30,10 +30,10 @@
             </span>
           </a>
         </div>
-        <div class="hidden lg:flex lg:gap-x-12">
+        <div class=" flex lg:gap-x-12 sm:gap-x-8 sm:mr-10">
           <a href="/localhost/home" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
           <a href="http://localhost/about-us/" class="text-sm font-semibold leading-6 text-gray-900">About Us</a>
-          <a href=".contact-us" class="text-sm font-semibold leading-6 text-gray-900">Contact Us</a>
+          <a href="" class="text-sm font-semibold leading-6 text-gray-900">Contact Us</a>
         </div>
         <!--<div>
           <?php
