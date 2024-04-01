@@ -5,3 +5,23 @@
  * Descrtiption: Custom theme for Eviva Weddings
  * Author: Aris Katsarakis
  * */
+.slider {
+    width: 100%;
+    height: 32rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 1s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}

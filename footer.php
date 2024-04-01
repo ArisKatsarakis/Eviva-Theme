@@ -6,7 +6,7 @@ if (function_exists('the_custom_logo')) {
   $logo = wp_get_attachment_image_src($custom_logo_id)[0];
 }
 ?>
-<footer class="border-t-indigo-500 border-t-2 shadow-indigo-500 shadow-md">
+<footer class="border-t-indigo-500 border-t-2 shadow-indigo-500 shadow-md bg-gradient-to-bl from-creme to-white">
   <div class="flex justify-between ">
     <div>
       <h3> <?php echo get_bloginfo('name') ?> </h3>

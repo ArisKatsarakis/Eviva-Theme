@@ -19,11 +19,11 @@
 </head>
 
 <body>
-  <div class="drop-shadow-lg bg-contain">
+  <div class="drop-shadow-lg bg-contain bg-gradient-to-tr from-creme to-white">
     <header class=" inset-x-0 top-0 z-50  border-b-2 border-indigo-500 drop-shadow-md">
       <nav class="flex items-center justify-between  lg:px-12">
         <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-1.5">
+          <a href="#" class="-m-1.5 p-1.5 transition ease-in-out duration-300">
             <img class=" mb-3 mx-auto b-1" src="<?php echo $logo; ?>"> </img>
             <span class="sr-only drop-shadow-lg">
               <h3> <?php echo get_bloginfo('name') ?> </h3>
