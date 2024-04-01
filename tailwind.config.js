@@ -2,9 +2,6 @@
 module.exports = {
   content: ["./**/*.{php,html,css}"],
   theme: {
-    colors: {
-      creme: '#FAEBD7'
-    },
     extend: {
       fontFamily: {
         'nunito': ['nunito', 'sans-serif'],

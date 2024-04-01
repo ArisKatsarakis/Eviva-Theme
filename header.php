@@ -19,8 +19,8 @@
 </head>
 
 <body>
-  <div class="drop-shadow-lg bg-contain bg-gradient-to-tr from-creme to-white">
-    <header class=" inset-x-0 top-0 z-50  border-b-2 border-indigo-500 drop-shadow-md">
+  <div class="drop-shadow-lg bg-contain  sticky top-8 bg-white">
+    <header class=" inset-x-0 z-50  border-b-2 border-indigo-500 drop-shadow-md sticky top-4 ">
       <nav class="flex items-center justify-between  lg:px-12">
         <div class="flex lg:flex-1">
           <a href="#" class="-m-1.5 p-1.5 transition ease-in-out duration-300">
