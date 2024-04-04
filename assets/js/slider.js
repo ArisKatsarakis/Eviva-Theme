@@ -1,18 +1,43 @@
-// let prevButton = document.getElementById('prev');
-//
-// prevButton.onClick = function() {
-//   console.log('testing previous button');
-//   let active = document.querySelectorAll('.slider .list .item.active');
-//   active.opacity = 0;
-// }
-//
-//
-var $j = jQuery.noConflict();
-$j('#prev').on('click', function() {
-  console.log('testing');
+let items = document.getElementById('slider').querySelectorAll('.slider .list .item');
+let next = document.getElementById('next');
+let prev = document.getElementById('prev');
+let sliderRefreshInterval = 6000;
+// config param
+let countItem = items.length;
+let itemActive = 0;
+// event next click
+next.onclick = function() {
+  itemActive = itemActive + 1;
+  if (itemActive >= countItem) {
+    itemActive = 0;
+  }
+  showSlider();
+}
+//event prev click
+prev.onclick = function() {
+  itemActive = itemActive - 1;
+  if (itemActive < 0) {
+    itemActive = countItem - 1;
+  }
+  showSlider();
+}
+// auto run slider
+let refreshInterval = setInterval(() => {
+  next.click();
+}, sliderRefreshInterval)
+function showSlider() {
+  // remove item active old
+  let itemActiveOld = document.querySelector('.slider .list .item.active');
+  itemActiveOld.classList.remove('active');
 
-  $j('.slider .list .item').css('opacity', '1');
-  $j('.slider .list .item.active').css('opacity', '0');
-  //   let active = document.querySelectorAll('.slider .list .item.active');
-  //   active.opacity = 0;
-})
+  // active new item
+  items[itemActive].classList.add('active');
+
+  // clear auto time run slider
+  clearInterval(refreshInterval);
+  refreshInterval = setInterval(() => {
+    next.click();
+  }, 5000)
+}
+
+

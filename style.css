@@ -5,17 +5,45 @@
  * Descrtiption: Custom theme for Eviva Weddings
  * Author: Aris Katsarakis
  * */ 
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: 'Raleway';
+}
+header {
+  z-index: 200;
+  width: 1200px;
+    max-width: 90%;
+    margin: auto;
+    padding: auto;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header h3 {
+  font-size: 30px;
+  font-family: 'Raleway';
+  font-weight: 'light';
+}
+
 
 .slider {
-  height: 100vh;
-  margin-top: -50px;
-  position: relative;
+    height: 100vh;
+    margin-top: -50px;
+    position: relative;
 }
 
 .slider .list .item {
-  position: absolute;
-  overflow: hidden;
-  opacity: 0;
+ position: absolute;
+    inset: 0 0 0 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: .5s;
 }
 
 .slider .list .item img {
@@ -37,15 +65,50 @@
 }
 
 .slider .list .item .item-content { 
-  position: absolute; 
-  left: 10%; 
-  top: 20%;
-  width: 500px;
-  max-width: 80%;
-  z-index: 1;
+  position: absolute;
+    left: 50%;
+    top: 20%;
+    width: 500px;
+    max-width: 80%;
+    z-index: 1;
+}
+
+.slider .list .item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0,0, 0.4);
+}
+
+.slider .list .item .item-content p {
+  width: 40rem;
+  color: white;
+  font-size: 30px;
+  font-family: 'Raleway';
+  font-size: 40px;
 }
 
 .slider .list .item.active {
   opacity: 1;
   z-index: 10;
+}
+
+.slider a {
+  position: absolute;
+  z-index: 100;
+}
+
+.thumbnails .list .item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ background: rgba(0,0,0,.1);
 }
