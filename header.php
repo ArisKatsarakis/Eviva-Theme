@@ -31,9 +31,9 @@
     </div>
     <div class=" flex justify-center gap-20">
       <a href="/" class="text-sm font-semibold leading-6 ">Home</a>
-      <a href="http://localhost/about-us/" class="text-sm font-semibold leading-6 ">About Us</a>
-      <a href="http://localhost/about-us/" class="text-sm font-semibold leading-6 ">Wedding Packages</a>
-      <a href="" class="text-sm font-semibold leading-6 ">Contact Us</a>
+      <a href="/about-us/" class="text-sm font-semibold leading-6 ">About Us</a>
+      <a href="/about-us/" class="text-sm font-semibold leading-6 ">Wedding Packages</a>
+      <a href="/contact-us" class="text-sm font-semibold leading-6 ">Contact Us</a>
     </div>
   </header>
   <!--<div>
