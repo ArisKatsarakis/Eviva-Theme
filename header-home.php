@@ -21,34 +21,11 @@
 
 <body>
   <header class="flex justify-between ">
-    <h3> <?php echo get_bloginfo('name') ?> </h3>
-    <div class="">
-      <a href="#" class="">
-        <!-- <img src="<?php echo $logo; ?>"> </img> -->
-        <span class="text-white">
-        </span>
-      </a>
-    </div>
-    <div class=" flex justify-center gap-20">
+    <h3 class="text-white"> <?php echo get_bloginfo('name') ?> </h3>
+    <div class=" text-white flex justify-center gap-20">
       <a href="/" class="text-sm font-semibold leading-6 ">Home</a>
       <a href="http://localhost/about-us/" class="text-sm font-semibold leading-6 ">About Us</a>
       <a href="http://localhost/about-us/" class="text-sm font-semibold leading-6 ">Wedding Packages</a>
       <a href="" class="text-sm font-semibold leading-6 ">Contact Us</a>
     </div>
   </header>
-  <!--<div>
-          <?php
-          /* wp_nav_menu([ */
-          /*   'menu' => 'primary', */
-          /*   'container' => '', */
-          /*   'theme_location' => 'primary', */
-          /*   'item_wrap' => '<ul id="" class="lg:gap-x-12 lg:flex  bg-red-100 text-sm">%4$s</ul>' */
-          /* ]) */
-
-          /**
-           * Go to menus then choose custom classes for adding classes from tailwind
-           * in order to work with the menu properly
-           * Pro: See how a wrapper is being written for creating custom menus 
-           */
-          ?>
-         </div> -->
