@@ -4,24 +4,48 @@
  * Version: 1.0
  * Descrtiption: Custom theme for Eviva Weddings
  * Author: Aris Katsarakis
- * */
+ * */ 
+
 .slider {
-    width: 100%;
-    height: 32rem;
-    overflow: hidden;
-    position: relative;
+  height: 100vh;
+  margin-top: -50px;
+  position: relative;
 }
 
-.slide {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: left 1s ease-in-out;
+.slider .list .item {
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
 }
 
-.slide img {
-    width: 100%;
-    height: 100%;
+.slider .list .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider.list .item::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image:  linear-gradient(
+    to top, #000 40%, transparent
+  );
+}
+
+.slider .list .item .item-content { 
+  position: absolute; 
+  left: 10%; 
+  top: 20%;
+  width: 500px;
+  max-width: 80%;
+  z-index: 1;
+}
+
+.slider .list .item.active {
+  opacity: 1;
+  z-index: 10;
 }

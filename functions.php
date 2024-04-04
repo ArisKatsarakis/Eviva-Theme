@@ -1,5 +1,4 @@
 <?php
-
 function evivatheme_theme_support()
 {
   add_theme_support('title-tag');
@@ -22,7 +21,7 @@ add_action('wp_enqueue_scripts', 'evivatheme_register_styles');
 function evivatheme_register_scripts()
 {
 
-  wp_enqueue_script('wp-react-kickoff', get_template_directory_uri() . '/react-templates/build/index.bundle.js', ['jquery', 'wp-element'], wp_rand(), true);
+  wp_enqueue_script('eviva-slider-js', get_template_directory_uri() . '/assets/js/slider.js', ['jquery', 'wp-element'], wp_rand(), true);
 }
 
 add_action('wp_enqueue_scripts', 'evivatheme_register_scripts'); // Loads on frontend
