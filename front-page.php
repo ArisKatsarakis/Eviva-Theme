@@ -66,16 +66,19 @@ slidingImages();
     </div>
   </div>
   <div class="grid grid-cols-2 gap-4 mb-2">
-    <div class="shadow-md  border-black slider m-0 thumbnails">
+    <div class="shadow-md  border-black slider-thumb-1 slider m-0 thumbnails">
       <div class="list">
         <div class="item active">
           <img src="http://localhost/wp-content/uploads/2024/04/dress11_big-thumb.jpg" class="w-full" />
-          <div class="absolute inset-x-2/4 top-1 z-1 text-4xl bg-gray-50">
-            <p class="text-indigo-500"> Luxury </p>
+          <div class="absolute  inset-x-2/4 bottom-2 z-2 text-5xl">
+            <p class="text-white"> Prestige </p>
           </div>
         </div>
-        <div class="item">
-          <img src="http://localhost/wp-content/uploads/2024/04/dress13-scaled.jpg" class="w-full" />
+        <div class="item ">
+          <img src="http://localhost/wp-content/uploads/2024/04/bouquet1_big-thumb.jpg" class="w-full" />
+          <div class="absolute inset-x-2/4 bottom-2 z-2 text-4xl ">
+            <p class="text-white "> Class </p>
+          </div>
         </div>
       </div>
     </div>
