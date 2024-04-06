@@ -48,7 +48,39 @@
         <h1> Traditional Cretan Wedding </h1>
       </div>
     </div>
-    <div class="packages-list">
-
+    <div class="packages-slider">
+      <div class="container packages-list grid grid-cols-3 gap-4">
+        <div class="packages-slider-item">
+          <img src="http://localhost/wp-content/uploads/2024/04/dress11_big-thumb.jpg" />
+        </div>
+        <div class="packages-slider-item">
+          <img src="http://localhost/wp-content/uploads/2024/04/couple8.jpg" />
+        </div>
+        <div class="packages-slider-item">
+          <img src="http://localhost/wp-content/uploads/2024/04/bouquet1_big-thumb.jpg" />
+        </div>
+      </div>
+      <div class="container packages-list grid grid-cols-3 gap-4">
+        <div class="packages-slider-item">
+          <img src="http://localhost/wp-content/uploads/2024/04/dress11_big-thumb.jpg" />
+        </div>
+        <div class="packages-slider-item">
+          <img src="http://localhost/wp-content/uploads/2024/04/couple8.jpg" />
+        </div>
+        <div class="packages-slider-item">
+          <img src="http://localhost/wp-content/uploads/2024/04/bouquet1_big-thumb.jpg" />
+        </div>
+      </div>
+      <div class="container packages-list grid grid-cols-3 gap-4">
+        <div class="packages-slider-item">
+          <img src="http://localhost/wp-content/uploads/2024/04/dress11_big-thumb.jpg" />
+        </div>
+        <div class="packages-slider-item">
+          <img src="http://localhost/wp-content/uploads/2024/04/couple8.jpg" />
+        </div>
+        <div class="packages-slider-item">
+          <img src="http://localhost/wp-content/uploads/2024/04/bouquet1_big-thumb.jpg" />
+        </div>
+      </div>
     </div>
   </div>
