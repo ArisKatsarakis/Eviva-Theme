@@ -10,7 +10,6 @@
   if (function_exists('the_custom_logo')) {
     /* the_custom_logo(); */
     $custom_logo_id = get_theme_mod('custom_logo');
-    $logo = wp_get_attachment_image_src($custom_logo_id)[0];
   }
   ?>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,12 +19,20 @@
 </head>
 
 <body>
-  <header class="flex justify-between ">
+
+  <header class="flex justify-between  bg-black bg-opacity-10">
     <h3 class="text-white"> <?php echo get_bloginfo('name') ?> </h3>
     <div class=" text-white flex justify-center gap-20">
-      <a href="//" class="text-sm font-semibold leading-6 ">Home</a>
-      <a href="http://localhost/about-us/" class="text-sm font-semibold leading-6 ">About Us</a>
-      <a href="http://localhost/about-us/" class="text-sm font-semibold leading-6 ">Wedding Packages</a>
-      <a href="" class="text-sm font-semibold leading-6 ">Contact Us</a>
+      <a href="/" class="text-sm font-semibold leading-6 ">Home</a>
+      <a href="/about-us/" class="text-sm font-semibold leading-6 ">About Us</a>
+      <a href="/about-us/" class="text-sm font-semibold leading-6 ">Wedding Packages</a>
+      <a href="/contact-us" class="text-sm font-semibold leading-6 ">Contact Us</a>
     </div>
   </header>
+  <div class="about-image border-b-2">
+    <img src="http://localhost/wp-content/uploads/2024/04/couple_in_church5.jpg" class="w-full " />
+    <div class="absolute top-2/4 inset-x-2/4 text-white w-5/6">
+      <p class="text-4xl mb-6 text-left"> The Team </p>
+      <a href="#" class="border-white-500 w-10 h-10 border-2 px-4 py-2 mt-4"> Contact us </a>
+    </div>
+  </div>

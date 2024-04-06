@@ -56,7 +56,7 @@ slidingImages();
   <a href="#" class=" bg-black px-4 py-2  rounded-3xl text-white"> Learn More </a>
 </div>
 <div class="text-center">
-  <h2 class="prose prose-headings:h2 text-xl"> Weeding Packages</h2>
+  <h2 class="prose prose-headings:h2 text-xl"> Wedding Packages</h2>
   <div class="grid grid-cols-2 gap-4 mb-2 ">
     <div class="shadow-md  border-black bg-gray-100 px-2 text-3xl rounded-3xl">
       <h2> Luxurius Wedding </h2>

@@ -1,5 +1,9 @@
 <?php
-get_header();
+if (is_page('about-us')) {
+  get_header('about');
+} else {
+  get_header();
+}
 ?>
 <div>
   <article class="about-section content px-3 py-5 p-md-5">
