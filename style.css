@@ -245,3 +245,28 @@ header h3 {
   );
 }
 
+.mid-slider {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+}
+
+.mid-slider .list .item {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  inset:  1px 50%;
+}
+
+.mid-slider .list .item  img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.mid-slider .list .item.active {
+  opacity: 1; 
+}

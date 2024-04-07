@@ -45,23 +45,25 @@ function slidingImages()
 slidingImages();
 ?>
 <div class="grid grid-cols-2">
-  <h1 class=" col-span-2  text-xl font-bold text-center  prose prose-headings:h2   bg-gradient-to-r from-creme  to-white"> Meet The Team </h1>
+  <h1 class=" col-span-2  text-5xl font-bold text-center  "> Meet The Team </h1>
 </div>
 <div class="justify-around  hover:ease-in bg-gradient-to-r from-creme  to-white flex  text-center ... ">
   <img class="flex-shrink" src="http://localhost/wp-content/uploads/2024/03/evi_eva.png" alt="evi_eva" />
   <p class="flex-grow">Following their heart, nature and talents Evi and Eva gathered their strengths and EVIVA weddings is born. EVIVA weddings offers full service on destination planning and design, all around Crete, either in unique proposed wedding packages, or customized and specially organized wedding packages “only for you”.</p>
 </div>
 <div class="justify-center flex  shadow-xl border-b-2 border-gray-400 pb-2">
-  <a href="#" class="mr-2 bg-black px-4 py-2  rounded-3xl text-white"> Contact Us! </a>
-  <a href="#" class=" bg-black px-4 py-2  rounded-3xl text-white"> Learn More </a>
+  <a href="/contact-us" class="mr-2 bg-black px-4 py-2  rounded-3xl text-white"> Contact Us! </a>
+  <a href="/about-us" class=" bg-black px-4 py-2  rounded-3xl text-white"> Learn More </a>
 </div>
-<div class="text-center">
-  <h2 class="prose prose-headings:h2 text-xl"> Wedding Packages</h2>
-  <div class="grid grid-cols-2 gap-4 mb-2 ">
-    <div class="shadow-md  border-black bg-gray-100 px-2 text-3xl rounded-3xl">
+<div class="">
+  <div class="text-center w-full mb-2 mt-2 ">
+    <h2 class="text-4xl"> Wedding Packages</h2>
+  </div>
+  <div class="grid grid-cols-2 gap-4 mb-2 text-center ">
+    <div class="shadow-md  border-black bg-gray-100 px-2 text-2xl rounded-3xl">
       <h2> Luxurius Wedding </h2>
     </div>
-    <div class=" shadow-md  border-black bg-gray-100 px-2 text-3xl rounded-3xl">
+    <div class=" shadow-md  border-black bg-gray-100 px-2 text-2xl rounded-3xl">
       <h2> Traditional Crete Wedding </h2>
     </div>
   </div>
@@ -69,27 +71,45 @@ slidingImages();
     <div class="shadow-md  border-black slider-thumb-1 slider m-0 thumbnails">
       <div class="list">
         <div class="item active">
-          <img src="http://localhost/wp-content/uploads/2024/04/dress11_big-thumb.jpg" class="w-full" />
-          <div class="absolute  inset-x-2/4 bottom-2 z-2 text-5xl">
-            <p class="text-white"> Prestige </p>
-          </div>
+          <img src="http://localhost/wp-content/uploads/2024/04/dress14-scaled.jpg" class="w-full" />
+        </div>
+        <div class="item ">
+          <img src="http://localhost/wp-content/uploads/2024/04/decoration12.jpg" class="w-full" />
         </div>
         <div class="item ">
           <img src="http://localhost/wp-content/uploads/2024/04/bouquet1_big-thumb.jpg" class="w-full" />
-          <div class="absolute inset-x-2/4 bottom-2 z-2 text-4xl ">
-            <p class="text-white "> Class </p>
-          </div>
         </div>
       </div>
     </div>
-    <div class="shadow-md border-2  border-black slider m-0 thumbnails">
+    <div class="shadow-md border-2  border-black slider m-0 slider-thumb-2 slider thumbnails">
       <div class="list">
         <div class="item active">
-          <img src="http://localhost/wp-content/uploads/2024/04/dress13-scaled.jpg" class="w-full" />
+          <img src="http://localhost/wp-content/uploads/2024/04/dress20-scaled.jpg" class="w-full" />
         </div>
         <div class="item">
-          <img src="http://localhost/wp-content/uploads/2024/04/dress11_big-thumb.jpg" class="w-full" />
+          <img src="http://localhost/wp-content/uploads/2024/04/decoration13.jpg" class="w-full" />
         </div>
+        <div class="item">
+          <img src="http://localhost/wp-content/uploads/2024/04/couple_in_church2.jpg" class="w-full" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="  mb-2 text-center mt-2 flex justify-center ">
+    <div class="shadow-md  border-black bg-gray-100 px-2 text-2xl rounded-3xl">
+      <h2> Rustic Wedding </h2>
+    </div>
+  </div>
+  <div class=" mid-slider flex justify-center place-items-center">
+    <div class="list justify-center place-items-center">
+      <div class=" item active ">
+        <img src="http://localhost/wp-content/uploads/2024/04/dress29-scaled.jpg" class="w-full" />
+      </div>
+      <div class="item ">
+        <img src="http://localhost/wp-content/uploads/2024/04/decoration10.jpg" class="w-full" />
+      </div>
+      <div class="item">
+        <img src="http://localhost/wp-content/uploads/2024/04/decoration15.jpg" class="w-full" />
       </div>
     </div>
   </div>

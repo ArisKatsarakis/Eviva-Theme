@@ -87,7 +87,7 @@
       <h1 class="text-6xl m-0"> Our Services </h1>
     </div>
     <div class="container  mt-2  flex text-center bg-indigo-50 ">
-      <ul class="grid grid-cols-3 align-top place-items-center ">
+      <ul class="grid grid-cols-3 gap-4 align-top place-items-center ">
         <li class="list-disc">
           <div class="text-left">
             <h2 class="text-center text-2xl border-b-2 border-black my-2">Event Design and Budget Development: </h2>

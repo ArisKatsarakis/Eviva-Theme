@@ -41,29 +41,23 @@ if (document.getElementById('slider') != null) {
       next.click();
     }, sliderRefreshInterval)
   }
-  let thumbnailsWedding1 = document.querySelector('.slider-thumb-1').querySelectorAll(' .list .item');
-  let thumbsCount = thumbnailsWedding1.length;
+  let thumbsCount = 3;
   let activeThumb = 0;
-
-  function nextThumb(slider) {
-    activeThumb = activeThumb + 1;
-    if (activeThumb >= thumbsCount) { activeThumb = 0; }
-    showThumb(slider);
-  };
+  let slider2 = document.querySelector('.slider-thumb-2');
+  let slider3 = document.querySelector('.mid-slider');
 
   function showThumb(slider) {
     let activeOld = slider.querySelector('.list .item.active');
-    console.log(slider);
     activeOld.classList.remove('active');
-    thumbnailsWedding1[activeThumb].classList.add('active');
-    clearInterval(thumbsInterval);
-    thumbsInterval = setInterval(() => {
-      nextThumb(document.querySelector('.slider-thumb-1'));
-    }, sliderRefreshInterval);
+    slider.querySelectorAll('.list .item')[activeThumb].classList.add('active');
   }
 
   let thumbsInterval = setInterval(() => {
-    nextThumb(document.querySelector('.slider-thumb-1'));
+    activeThumb = activeThumb + 1;
+    if (activeThumb >= thumbsCount) { activeThumb = 0; }
+    showThumb(document.querySelector('.slider-thumb-1'));
+    showThumb(slider2);
+    showThumb(slider3);
   }, sliderRefreshInterval);
 }
 let activePackageItem = document.querySelector('.packages .package-item.active');
