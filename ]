@@ -87,13 +87,21 @@
       <h1 class="text-6xl m-0"> Our Services </h1>
     </div>
     <div class="container  mt-2  flex text-center bg-indigo-50 ">
-      <ul class="grid grid-cols-3 align-top place-items-center ">
+      <ul>
         <li class="list-disc">
           <div class="text-left">
-            <h2 class="text-center text-2xl border-b-2 border-black my-2">Event Design and Budget Development: </h2>
+            <h2 class="text-center text-2xl border-b-2 border-black my-2">Event Design and Concept Development: </h2>
             <p class="text-xl">
-              Full event design & overall concept development <br />
+              Full event design & overall concept development
               Design & decor planning and execution
+            </p>
+          </div>
+        </li>
+
+        <li class="list-disc">
+          <div class="text-left">
+            <h2 class="text-center text-2xl border-b-2 border-black my-2">Budgeting and Cost Management:</h2>
+            <p class="text-xl">
               Custom budget formulation & cost breakdown
             </p>
           </div>
@@ -102,8 +110,8 @@
           <div class="text-left">
             <h2 class="text-center text-2xl border-b-2 border-black my-2">Vendor Coordination and Management:</h2>
             <p class="text-xl">
-              Full-service vendor referral & ongoing management <br />
-              Negotiation & drafting of contracts <br />
+              Full-service vendor referral & ongoing management
+              Negotiation & drafting of contracts
               Entertainment coordination for the couple and guests
             </p>
           </div>
@@ -111,11 +119,20 @@
         <li class="list-disc">
           <div class="text-left">
             <h2 class="text-center text-2xl border-b-2 border-black my-2">
-              Venue Logistics and Catering Selection:
+              Venue Selection and Logistics:
             </h2>
             <p class="text-xl">
-              Ceremony & reception venue scouting & selection <br />
-              Accommodation consultation & transportation services <br />
+              Ceremony & reception venue scouting & selection
+              Accommodation consultation & transportation services
+            </p>
+          </div>
+        </li>
+        <li class="list-disc">
+          <div class="text-left">
+            <h2 class="text-center text-2xl border-b-2 border-black my-2">
+              Menu Planning and Catering:
+            </h2>
+            <p class="text-xl">
               Food, beverage & overall menu design
             </p>
           </div>
@@ -126,38 +143,32 @@
               Stationery and Communication:
             </h2>
             <p class="text-xl">
-              Calligraphy & printed materials <br />
-              Regular communication & progress meetings
-              Full on-site coordination and event management
-            </p>
-          </div>
-        </li>
-        <li class="list-disc">
-          <div class="text-left">
-            <h2 class="text-center text-2xl border-b-2 border-black my-2">
-              Guest Services and Hospitality:
-            </h2>
-            <p class="text-xl">
-              Gifts, favours & welcome baskets /
-              Pre/Post wedding festivities
-              <br />
-              Bridal beauty services <br />
-              Etiquette advice <br />
-            </p>
-          </div>
-        </li>
-        <li class="list-disc">
-          <div class="text-left">
-            <h2 class="text-center text-2xl border-b-2 border-black my-2">
-              Logistical Planning and Coordination:
-            </h2>
-            <p class="text-xl">
-              Paperwork consultation
-              Detailed timelines, production schedule and itinerary of the event
-              Ceremony and reception set-up
-              Venue site clear-out
+              Food, beverage & overall menu design
             </p>
           </div>
         </li>
       </ul>
+
+      <!--     
+
+
+
+
+
+      Calligraphy & printed materials
+      Regular communication & progress meetings
+      Guest Services and Hospitality:
+
+      Gifts, favours & welcome baskets
+      Bridal beauty services
+      Etiquette advice
+      Pre/Post wedding festivities
+      Logistical Planning and Coordination:
+
+      Paperwork consultation
+      Detailed timelines, production schedule and itinerary of the event
+      Ceremony and reception set-up
+      Full on-site coordination and event management
+      Venue site clear-out
+ -->
     </div>

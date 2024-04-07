@@ -10,10 +10,6 @@ module.exports = {
         'crismon': ['crimson', 'text'],
       },
       stroke: ['hover', 'focus'],
-      fontSize: {
-        '2xl': '100px',
-        'xl': '50px',
-      }
     },
   },
   plugins: [

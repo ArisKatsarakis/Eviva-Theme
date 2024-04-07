@@ -3,7 +3,6 @@ if (is_page('about-us')) {
   get_header('about');
 } else if (is_page('wedding-packages')) {
   get_header('packages');
-  echo 'test';
 } else {
   get_header();
 }
@@ -12,10 +11,12 @@ if (is_page('about-us')) {
   <article class="about-section content px-3 py-5 p-md-5">
     <div class="container">
       <?php
-      if (have_posts()) {
-        while (have_posts()) {
-          the_post();
-          the_content();
+      if (!is_page('wedding-packages')) {
+        if (have_posts()) {
+          while (have_posts()) {
+            the_post();
+            the_content();
+          }
         }
       }
       ?>
