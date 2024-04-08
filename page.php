@@ -3,6 +3,8 @@ if (is_page('about-us')) {
   get_header('about');
 } else if (is_page('wedding-packages')) {
   get_header('packages');
+} else if (is_page('contact-us')) {
+  get_header('contact');
 } else {
   get_header();
 }

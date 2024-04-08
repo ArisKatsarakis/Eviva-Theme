@@ -270,3 +270,19 @@ header h3 {
 .mid-slider .list .item.active {
   opacity: 1; 
 }
+
+.wpforms-field-container  {
+  border-left: 1px solid black !important;
+  margin: 2px;
+  padding: 16px !important;
+  border-radius: 1rem !important;
+  box-shadow: 1px 1px black !important;
+}
+.wpforms-submit-container {
+  text-align: center;
+}
+
+.wpforms-submit-container button { 
+ background-color: black !important; 
+ font-size: 30px !important;
+}
