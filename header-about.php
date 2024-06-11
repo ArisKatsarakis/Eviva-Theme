@@ -31,9 +31,9 @@
   </header>
   <div class="about-image border-b-2">
     <img src="http://localhost/wp-content/uploads/2024/04/couple_in_church5.jpg" class="w-full " />
-    <div class="absolute top-2/4 inset-x-2/4 text-white w-5/6">
-      <h3 class="text-white text-4xl mb-2"> <?php echo get_bloginfo('name') ?> </h3>
-      <p> EVIVA Weddings in Crete Island </p>
+    <div class="absolute top-2/4  text-white w-5/6">
+      <h3 class="text-white text-right text-4xl mb-2"> <?php echo get_bloginfo('name') ?> </h3>
+      <p class="text-right"> EVIVA Weddings in Crete Island </p>
     </div>
   </div>
   <div class=" text-center plain-text container border-b-2 mt-4">

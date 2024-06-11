@@ -286,3 +286,13 @@ header h3 {
  background-color: black !important; 
  font-size: 30px !important;
 }
+
+ /** style for smaller devices */
+@media screen and (max-width: 678px) {
+    .slider .list .item .content h2{
+        font-size: 60px;
+    }
+    .arrows{
+        top: 10%;
+    }
+}
