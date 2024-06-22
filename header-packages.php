@@ -29,6 +29,7 @@
       <a href="/contact-us" class="text-sm font-semibold leading-6 ">Contact Us</a>
     </div>
   </header>
+
   <div class="packages-image border-b-2 ">
     <img src="http://localhost/wp-content/uploads/2024/04/dress2.jpg" class="w-full " />
     <div class="absolute top-2/4 inset-x-2/4 text-black z-10 ">
@@ -36,7 +37,9 @@
       <p> EVIVA Weddings in Crete Island </p>
     </div>
   </div>
+
   <div class="packages">
+
     <div class="flex justify-between container mt-4 ">
       <div class="package-item active" count='0'>
         <h1> Rustic Wedding </h1>
@@ -48,38 +51,39 @@
         <h1> Traditional Cretan Wedding </h1>
       </div>
     </div>
+
     <div class="packages-slider">
       <div class="container packages-list active  grid grid-cols-3 gap-4" count='0'>
         <div class="packages-slider-item">
-          <img src="http://localhost/wp-content/uploads/2024/04/dress11_big-thumb.jpg" />
+          <img src="http://localhost/wp-content/uploads/2024/06/decoration7.jpg" />
         </div>
         <div class="packages-slider-item">
-          <img src="http://localhost/wp-content/uploads/2024/04/couple8.jpg" />
+          <img src="http://localhost/wp-content/uploads/2024/06/couple_in_church2.jpg" />
         </div>
         <div class="packages-slider-item">
-          <img src="http://localhost/wp-content/uploads/2024/04/bouquet1_big-thumb.jpg" />
+          <img src="http://localhost/wp-content/uploads/2024/06/couple_beach9.jpg" />
         </div>
       </div>
       <div class="container packages-list grid grid-cols-3 gap-4" count='1'>
         <div class="packages-slider-item">
-          <img src="http://localhost/wp-content/uploads/2024/04/couple8.jpg" />
+          <img src="http://localhost/wp-content/uploads/2024/06/couple_beach7.jpg" />
         </div>
         <div class="packages-slider-item">
-          <img src="http://localhost/wp-content/uploads/2024/04/dress11_big-thumb.jpg" />
+          <img src="http://localhost/wp-content/uploads/2024/06/couple_in_church1.jpg" />
         </div>
         <div class="packages-slider-item">
-          <img src="http://localhost/wp-content/uploads/2024/04/bouquet1_big-thumb.jpg" />
+          <img src="http://localhost/wp-content/uploads/2024/06/activities5.jpg" />
         </div>
       </div>
       <div class="container packages-list grid grid-cols-3 gap-4" count='2'>
         <div class="packages-slider-item">
-          <img src="http://localhost/wp-content/uploads/2024/04/couple8.jpg" />
+          <img src="http://localhost/wp-content/uploads/2024/06/dress.jpg" />
         </div>
         <div class="packages-slider-item">
-          <img src="http://localhost/wp-content/uploads/2024/04/bouquet1_big-thumb.jpg" />
+          <img src="http://localhost/wp-content/uploads/2024/06/chapel.jpg" />
         </div>
         <div class="packages-slider-item">
-          <img src="http://localhost/wp-content/uploads/2024/04/dress11_big-thumb.jpg" />
+          <img src="http://localhost/wp-content/uploads/2024/06/dress23.jpg" />
         </div>
       </div>
     </div>
